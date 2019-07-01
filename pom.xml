@@ -208,8 +208,8 @@
   
 <distributionManagement>
     <snapshotRepository>
-        <id>InternalSnapshots</id>
-        <name>Internal Snapshots</name>
+        <id>TestArtifactUpload</id>
+        <name>TestArtifactUpload</name>
         <url>http://localhost:8081/repository/TestArtifactUpload/</url>
     </snapshotRepository>
 </distributionManagement>
