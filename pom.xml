@@ -212,6 +212,15 @@
     <tag>HEAD</tag>
     <url>http://github.com/jleetutorial/maven-project</url>
   </scm>
+    
+  
+<distributionManagement>
+    <snapshotRepository>
+        <id>InternalSnapshots</id>
+        <name>Internal Snapshots</name>
+        <url>http://localhost:8081/repository/TestArtifactUpload/</url>
+    </snapshotRepository>
+</distributionManagement>
 
   <prerequisites>
     <maven>3.0.3</maven>
